@@ -30,6 +30,10 @@ Recipe:
 
     curl -d '{"name":"bogus"}' https://xxxxx.cloudfunctions.net/HelloGet
 
+# Tips & Tricks
+
+https://cloud.google.com/functions/docs/bestpractices/tips
+
 # GCP Functions Quickstart
 
 Quickstart: https://cloud.google.com/functions/docs/quickstart
