@@ -26,3 +26,6 @@ Recipe:
 
     gcloud functions describe HelloGet
 
+# Call the HTTP trigger
+
+    curl -d '{"name":"bogus"}' https://xxxxx.cloudfunctions.net/HelloGet
