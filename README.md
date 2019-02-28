@@ -29,3 +29,7 @@ Recipe:
 # Call the HTTP trigger
 
     curl -d '{"name":"bogus"}' https://xxxxx.cloudfunctions.net/HelloGet
+
+# GCP Functions Quickstart
+
+Quickstart: https://cloud.google.com/functions/docs/quickstart
