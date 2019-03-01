@@ -19,8 +19,13 @@ Recipe:
 
 # Deploy with an HTTP trigger
 
+    # from the source code dir
     cd gcpgofunc/helloworld
     gcloud functions deploy HelloGet --runtime go111 --trigger-http
+
+    # from somewhere else
+    cd ~/gcpgofunc
+    gcloud functions deploy HelloGet --runtime go111 --trigger-http --source=./helloworld
 
 # Get information about deployed function
 
